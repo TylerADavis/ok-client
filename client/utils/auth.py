@@ -245,7 +245,7 @@ def get_code(cmd_args, endpoint=''):
     if cmd_args.no_browser:
         return get_code_via_terminal(cmd_args)
 
-    email = input("Please enter your bCourses email: ")
+    email = input("Please enter your .edu email address: ")
 
     host_name = REDIRECT_HOST
     try:
